@@ -1,0 +1,326 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html {
+	  height: 100%;
+	 }
+body {
+	  height: 100%;
+	  font: 14px/18px 'Times New Roman', Times, sans-serif;
+	  background-color: #FFF;
+      }
+ol, ul {
+	    list-style: none;
+        }
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+				 content: " ";
+				 display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+.right{
+	float: right;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+#header {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+.logo span {
+    background-image: url(img/logo.png);
+    background-position: left top;
+    display: block;
+    width: 181px;
+    height: 56px;
+}
+.nav_cart span {
+    background-image: url(img/cart.png);
+    background-position: left top;
+    display: block;
+    width: 18px;
+    height: 24px;
+}
+.nav_search span {
+    background-image: url(img/search.png);
+    background-position: left top;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.nav {
+    padding-top: 20px;
+}
+.nav li {
+    float: left;
+    padding-left: 28px;
+}
+.nav li a {
+    color: #fff;
+}
+.nav li a:hover {
+    color: #c7b299;
+}
+.nav li.nav_cart {
+    padding-left: 62px;
+    
+}
+#slider {
+    height: 1024px;
+    background: url(img/bg.png) no-repeat;
+    background-size: cover;
+    padding-top: 375px;
+    text-align: center;
+    color: #fff;
+}
+#slider h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+    margin-bottom: 11px;
+}
+#slider h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 52px;
+    line-height: 52px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#slider p {
+    margin: 0 auto 44px;
+    width: 570px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+}
+a.btn {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    background: #998675;
+    box-shadow: 0px -3px #736357 inset;
+    padding: 20px 38px;
+    cursor: pointer;
+    transition: 0.2s;
+    display: inline-block;
+}
+a.btn:hover {
+    background: #736357;
+}
+a.btn:active {
+    background: #60534a;
+    box-shadow: 0 3px #60534a inset;
+}
+#services {
+    background: #fff;
+    height: 373;
+    padding-top: 80px;
+    text-align: center;
+}
+#services h4 {
+    font-family: "Raleway", sans-serif;
+    line-height: 22px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+#services p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.services-item {
+    padding: 0px 10px 0;
+    width: 25%;
+    float: left;
+}
+.services-item h4 {
+    color: #555555;
+}
+.services-item p {
+    color: #8c8c8c;
+}
+.services-item p:after {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 3px;
+    background: #f1eee9;
+    margin: 32px auto 80px;
+}
+.services-item:hover p:after {
+    background: #c7b299;
+}
+.services-item:hover {
+    cursor: pointer;
+}
+.services-item div {
+    background: url(img/services-icon.png) no-repeat;
+}
+.services-item .app_design {
+    margin: 0 auto 27px;
+    width: 52px;
+    height: 52px;
+    background-position: 0 0;
+}
+
+.services-item .development {    
+    margin: 0 auto 27px;
+    width: 52px;
+    height: 52px;
+    background-position: -52px 0;
+}
+.services-item .customization {
+    margin: 0 auto 27px;
+    width: 52px;
+    height: 52px;
+    background-position: -104px 0;
+}
+.services-item .marketing {
+    margin: 0 auto 27px;
+    width: 52px;
+    height: 52px;
+    background-position: -156px 0;
+}
+.services-item:hover h4 {
+    color: #c7b299;
+}
+.item_1:hover .app_design {
+    background-position: 0 -52px;
+}
+.item_2:hover .development {
+    background-position: -52px -52px
+}
+.item_3:hover .customization {
+    background-position: -104px -52px;
+}
+.item_4:hover .marketing {
+    background-position: -156px -52px;
+}
+#ideas {
+
+    background: #fbfaf8;
+    text-align: center;
+    padding-top: 80px;
+}
+#ideas .container {
+    width: 1230px;
+}
+.ideas-item h2 {
+    font-family: "Raleway", sans-serif;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    margin-bottom: 17px;
+}
+.ideas-item p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    width: 770px;
+    margin: 0 auto 32px;
+    color: #8c8c8c;
+}
+.ideas-item span {
+    height: 482px;
+    display: block;
+    background: url(img/ideas-item-bg.png) no-repeat;
+}
+#text-boxes {
+    height: 150px;
+    background-image: linear-gradient( to right, rgb(33,27,25), rgb(78,52,39) );
+
+}
+#text-boxes .container {
+    padding-top: 48px;
+}
+
+.text-boxes-item h4 {
+    font-family: "Raleway", sans-serif;
+    line-height: 28px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.text-boxes-item h4 span {
+    color: #c7b299;
+}
+.text-boxes-item p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #615855;
+}
+#latest-projects {
+    text-align: center;
+}
+.projects-title h1 {
+    font-family: "Raleway", sans-serif;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    margin-bottom: 17px;
+}
+.projects-title p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #615855;
+    width: 770px;
+    margin: 0 auto 32px;
+}
