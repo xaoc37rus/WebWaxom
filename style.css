@@ -184,6 +184,7 @@ a.btn:active {
 }
 .services-item h4 {
     color: #555555;
+    transition: 0.2s;
 }
 .services-item p {
     color: #8c8c8c;
@@ -195,6 +196,7 @@ a.btn:active {
     height: 3px;
     background: #f1eee9;
     margin: 32px auto 80px;
+    transition: 0.2s;
 }
 .services-item:hover p:after {
     background: #c7b299;
@@ -348,40 +350,68 @@ a.btn-projects:hover {
 a.btn-projects:active {
     background: #60534a;
 }
+.projects-wrap {
+    margin-bottom: 40px;
+}
 .project {
     width: 370px;
     float: left;
     margin: 0 30px 30px 0;
 }
 .project:nth-child(3n) {
-    margin-right: 0;
+    margin-right: 0; /*Убираем отступ справа у каждого третьего элемента*/
 }
-.project:hover .project-photo {
-    opacity: 0.7;
+.project:nth-last-child(1),
+.project:nth-last-child(2),
+.project:nth-last-child(3) {
+    margin-bottom: 0; /*Убираем отступ у последних трех элементов*/
 }
 .project-bg {
     height: 237px;
-    background: #2f2f2f;
+    background: #111;
 }
-.project-photo {
-    background: url(img/project-foto-1.png) no-repeat center;
+.project-foto {
     background-size: cover;
     display: block;
-    height: 100%;
+    height: 237px;
+    transition: 0.3s;
+    position: relative;
 }
+
+.foto-1 {
+    background-image: url(img/project-foto-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #111;
+}
+.foto-2 {
+    background: url(img/project-foto-2.png) no-repeat center;
+}
+
 .project-footer {
     background: #fbfaf8;
     padding: 27px 28px;
     text-align: left;
+    transition: 0.3s;
+    position: relative;
+}
+.project-footer:before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 10px;
+    background: url(img/arrow1.png);
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    transition: 0.3s;
+}
+.project:hover .project-footer:before {
+    background: url(img/arrow2.png);
 }
 .project:hover .project-footer {
     background: #362f2d;
-}
-.project:hover h4 {
-    color: #fff;
-}
-.project:hover p {
-    color: #c7b299;
 }
 .project-footer h4 {
     font-family: "Raleway", sans-serif;
@@ -390,10 +420,18 @@ a.btn-projects:active {
     font-weight: 500;
     color: #c7b299;
     margin-bottom: 7px;
+    transition: 0.3s;
 }
 .project-footer p {
     color: #d1d1d1;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 400;
+    transition: 0.3s;
+}
+.project:hover h4 {
+    color: #fff;
+}
+.project:hover p {
+    color: #c7b299;
 }
