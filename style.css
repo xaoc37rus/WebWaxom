@@ -11,60 +11,60 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 html {
-	  height: 100%;
-	 }
+    height: 100%;
+}
 body {
-	  height: 100%;
-	  font: 14px/18px 'Times New Roman', Times, sans-serif;
-	  background-color: #FFF;
-      }
+    height: 100%;
+    font: 14px/18px 'Times New Roman', Times, sans-serif;
+    background-color: #FFF;
+}
 ol, ul {
-	    list-style: none;
-        }
+    list-style: none;
+}
 * {
-	margin: 0;
-	padding: 0;
-	outline: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
 
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 a, a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .clearfix:before,
 .clearfix:after {
-				 content: " ";
-				 display: table;
+    content: " ";
+    display: table;
 }
 
 .clearfix:after {
-	clear: both;
+    clear: both;
 }
 
 .left {
-	float: left;
+    float: left;
 }
 .right{
-	float: right;
+    float: right;
 }
 
 .container {
     width: 1170px;
     margin: 0 auto;
 }
-#header {
+header {
     position: absolute;
     width: 100%;
     top: 40px;
@@ -316,7 +316,7 @@ a.btn:active {
     font-weight: 600;
     color: #555555;
     margin-bottom: 17px;
-    
+
 }
 .projects-title p {
     font-family: "Montserrat", sans-serif;
@@ -406,20 +406,6 @@ a.btn-projects:active {
     transition: 0.3s ease-in-out;
     position: relative;
 }
-.project-footer:before {
-    content: '';
-    display: block;
-    width: 30px;
-    height: 10px;
-    background: url(img/arrow1.png);
-    position: absolute;
-    top: -10px;
-    left: 20px;
-    transition: 0.3s ease-in-out;
-}
-.project:hover .project-footer:before {
-    background: url(img/arrow2.png);
-}
 .project:hover .project-footer {
     background: #362f2d;
 }
@@ -444,4 +430,16 @@ a.btn-projects:active {
 }
 .project:hover p {
     color: #c7b299;
+}
+.test {
+    line-height: 0;
+    fill: #fbfaf8;
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    transition: 0.3s ease-in-out;
+}
+.project:hover .test {
+    fill: #362f2d;
 }
