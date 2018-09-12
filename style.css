@@ -378,6 +378,7 @@ a.btn-projects:active {
     display: block;
     height: 237px;
     transition: 0.3s ease-in-out;
+    position: relative;
 }
 
 .foto-1 {
@@ -431,7 +432,7 @@ a.btn-projects:active {
 .project:hover p {
     color: #c7b299;
 }
-.test {
+.arrow {
     line-height: 0;
     fill: #fbfaf8;
     display: block;
@@ -440,6 +441,43 @@ a.btn-projects:active {
     left: 20px;
     transition: 0.3s ease-in-out;
 }
-.project:hover .test {
+.project:hover .arrow {
     fill: #362f2d;
+}
+.links {
+    width: 90px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: left;
+    display: none;
+}
+.project:hover .links {
+    display: block;
+}
+.project-link {
+    margin-right: 30px; /*Отсутп от первой иконки*/
+}
+.links span {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+}
+.link-icon {
+    background: url(img/projects-icon.png);
+    background-position: left top;
+}
+.link-icon:hover {
+    background-position: left bottom;
+}
+.search-icon {
+    background: url(img/projects-icon.png);
+    background-position: right top;
+}
+.search-icon:hover {
+    background-position: right bottom;
 }
