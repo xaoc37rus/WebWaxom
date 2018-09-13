@@ -334,14 +334,14 @@ a.btn-projects {
     color: #8c8c8c;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    font-weight: 400;
+    line-height: 21px;
+    font-weight: 300;
     border: 1px solid #ebebeb;
     border-radius: 3px;
     padding: 7px 23px;
     cursor: pointer;
     transition: 0.2s;
     display: inline-block;
-    margin: 0 3px;
 }
 a.btn-projects:hover {
     background: #998675;
@@ -388,10 +388,10 @@ a.btn-projects:active {
     background: url(img/project-foto-2.png) no-repeat center;
 }
 .foto-3 {
-    background: url(img/project-foto-3.png) no-repeat left top;
+    background: url(img/project-foto-3.png) no-repeat center;
 }
 .foto-4 {
-    background: url(img/project-foto-4.png) no-repeat left bottom;
+    background: url(img/project-foto-4.png) no-repeat center;
 }
 .foto-5 {
     background: url(img/project-foto-5.png) no-repeat center;
@@ -402,10 +402,11 @@ a.btn-projects:active {
 
 .project-footer {
     background: #fbfaf8;
-    padding: 27px 28px;
+    padding: 28px 29px;
     text-align: left;
     transition: 0.3s ease-in-out;
     position: relative;
+    height: 100px;
 }
 .project:hover .project-footer {
     background: #362f2d;
@@ -423,6 +424,7 @@ a.btn-projects:active {
     color: #d1d1d1;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
+    line-height: 20px;
     font-weight: 400;
     transition: 0.3s ease-in-out;
 }
@@ -438,15 +440,15 @@ a.btn-projects:active {
     display: block;
     position: absolute;
     top: -10px;
-    left: 20px;
+    left: 19px;
     transition: 0.3s ease-in-out;
 }
 .project:hover .arrow {
     fill: #362f2d;
 }
 .links {
-    width: 90px;
-    height: 30px;
+    width: 82px;
+    height: 26px;
     position: absolute;
     top: 0;
     right: 0;
@@ -460,7 +462,7 @@ a.btn-projects:active {
     display: block;
 }
 .project-link {
-    margin-right: 30px; /*Отсутп от первой иконки*/
+    margin-right: 25px; /*Отсутп от первой иконки*/
 }
 .links span {
     display: inline-block;
