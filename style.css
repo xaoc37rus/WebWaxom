@@ -425,7 +425,7 @@ a.btn-projects:active {
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     line-height: 20px;
-    font-weight: 400;
+    font-weight: 300;
     transition: 0.3s ease-in-out;
 }
 .project:hover h4 {
@@ -482,4 +482,52 @@ a.btn-projects:active {
 }
 .search-icon:hover {
     background-position: right bottom;
+}
+#video-presentation {
+    text-align: center;
+    height: 705px;
+    background: url(img/video-pic.png);
+    margin-top: 80px;
+}
+.video-cap {
+    padding-top: 210px;
+}
+.player-text h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    margin: 44px 0 29px 0;
+}
+.player-text p {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    transition: 0.3s ease-in-out;
+    margin: 0 auto;
+    width: 570px;
+}
+p.video-time {
+    color: #c7b299;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+    margin-top: 23px;
+}
+.player-btn {
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0, 0.2);
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.player-btn-icon {
+    background: url(img/video-btn.png) no-repeat center;
+    display: block;
+    height: 100%;
 }
