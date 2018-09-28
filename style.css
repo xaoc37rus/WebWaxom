@@ -494,11 +494,11 @@ a.btn-projects:active {
 }
 .player-text h1 {
     font-family: "Raleway", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 500;
     color: #fff;
     transition: 0.3s ease-in-out;
-    margin: 44px 0 29px 0;
+    margin: 47px 0 23px 0;
 }
 .player-text p {
     color: #fff;
@@ -514,10 +514,10 @@ p.video-time {
     color: #c7b299;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 24px;
     font-weight: 400;
     transition: 0.3s ease-in-out;
-    margin-top: 23px;
+    margin-top: 28px;
 }
 .player-btn {
     border-radius: 50%;
@@ -530,4 +530,17 @@ p.video-time {
     background: url(img/video-btn.png) no-repeat center;
     display: block;
     height: 100%;
+}
+#mobile-device {
+    height: 695px;
+    background: #fbfaf8;
+}
+.photo-phone {
+    height: 695px;
+    width: 423px;
+    background: url(img/phone-in-hand.png)no-repeat center;
+}
+.mobile-device-text {
+    width: 671px;
+    height: 695px;
 }
