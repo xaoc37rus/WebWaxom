@@ -538,9 +538,43 @@ p.video-time {
 .photo-phone {
     height: 695px;
     width: 423px;
-    background: url(img/phone-in-hand.png)no-repeat center;
+    background: url(img/phone-in-hand.png)no-repeat bottom;
+    margin-left: 47px;
 }
 .mobile-device-text {
     width: 671px;
     height: 695px;
+    margin-left: 29px;
+}
+.mobile-device-text__title {
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #555555;
+    margin-top: 198px;
+    margin-bottom: 34px;
+}
+.mobile-device-text__p {
+    color: #8c8c8c;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 34px;
+}
+.mobile-device-text__list {
+    color: #8c8c8c;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    list-style-image: url(img/device-mobile-arrow.png);
+    margin-left: 79px;
+}
+.mobile-device-text__list__item {
+    padding-left: 21px;
+}
+.mobile-device-text__list__item span {
+    position: relative;
+    bottom: 4px;
 }
