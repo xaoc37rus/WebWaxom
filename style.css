@@ -573,8 +573,26 @@ p.video-time {
 }
 .mobile-device-text__list__item {
     padding-left: 21px;
+    margin-top: 1px;
 }
 .mobile-device-text__list__item span {
     position: relative;
     bottom: 4px;
+}
+#counters {
+    height: 300px;
+    background-image: linear-gradient( to right, rgb(33,27,25), rgb(78,52,39) );
+}
+.counter_box_image {
+    width: 54px;
+    height: 44px;
+    background: url(img/counter-icon.png) no-repeat;
+    background-position: 0 0;
+}
+.counter_box span{
+    color: #8c8c8c;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
 }
